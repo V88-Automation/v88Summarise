@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "v88Summarise",
+    "description": "Summarises a long piece of text",
+    "author": "V88",
+    "params": [
+      {
+		 	  "name": "input",
+		 	  "displayName": "Input",
+		    "type": "string"
+		  },
+      {
+		 	  "name": "maxLength",
+		 	  "displayName": "Max Length",
+		    "type": "number"       
+      },
+		  {
+		    "name": "suffix",
+		    "displayName": "Suffix",
+		    "type": "string"
+		  }
+    ],
+     "result": {
+      "type": "string"
+    }
+  }
+]
